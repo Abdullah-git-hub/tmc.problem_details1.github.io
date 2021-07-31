@@ -225,6 +225,17 @@ body {
   }
 }
 
+@media (max-width: 580px) {
+  .simQuesConBox {
+    width: 98%;
+    margin: auto;
+  }
+
+  .simQuesCon .row {
+    justify-content: space-between;
+  }
+}
+
 @media (max-width: 375px) {
   .lang p i {
     display: none;
@@ -236,16 +247,5 @@ body {
 
   .langset ul li {
     padding: 4px 25px;
-  }
-}
-
-@media (max-width: 580px) {
-  .simQuesConBox {
-    width: 98%;
-    margin: auto;
-  }
-
-  .simQuesCon .row {
-    justify-content: space-between;
   }
 }
