@@ -150,6 +150,14 @@ body {
   text-decoration: none;
   color: white;
 }
+.simQuesConBox {
+  width: 30%;
+}
+
+.simQuesCon .row {
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* Hovers */
 .lang:hover .langset {
@@ -228,5 +236,16 @@ body {
 
   .langset ul li {
     padding: 4px 25px;
+  }
+}
+
+@media (max-width: 580px) {
+  .simQuesConBox {
+    width: 98%;
+    margin: auto;
+  }
+
+  .simQuesCon .row {
+    justify-content: space-between;
   }
 }
