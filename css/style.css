@@ -123,6 +123,8 @@ body {
 }
 .simQuesCon h4 {
   border-bottom: 2px solid #979797;
+  width: 98%;
+  margin-left: 5px;
 }
 .loginSec {
   width: max-content;
@@ -157,6 +159,12 @@ body {
 }
 .statistics table a:hover {
   color: #0d6efd;
+}
+
+.simQuesCon,
+.simQuesCon .row {
+  max-width: 100% !important;
+  margin: 0;
 }
 
 @media (max-width: 992px) {
